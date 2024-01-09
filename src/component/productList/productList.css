@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* margin: 0 auto; */
+}
+
+.product_card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
